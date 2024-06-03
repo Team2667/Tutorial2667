@@ -12,7 +12,7 @@ import com.google.common.escape.ArrayBasedUnicodeEscaper;
 //Be sure and do the UsingArrayContainers exercise before comleting this one.
 //
 // Lists are like arrays but better because they are more flexible. They grow dynamically
-// as you add items to them. You don't need to now how big the list needs to be when you declare it.
+// as you add items to them. You don't need to know how big the list needs to be when you declare it.
 //
 // Lists also use a lot of concepts that we will cover later like polymorphisim and dynamic types.
 // For now, it will be like magic but once we cover it, it will make complete sense.
@@ -26,7 +26,6 @@ public class UsingLists {
 
         // Example: a list of Strings
         List<String> stringList = new ArrayList<String>();
-
     }
 
     @Test
@@ -69,6 +68,5 @@ public class UsingLists {
         //
         // TODO: Create a List of integers, add 3 integers to the list and then use assertEquals
         // to verify that the list contains the values you added.
-    }
-    
+    }    
 }
